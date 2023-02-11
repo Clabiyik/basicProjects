@@ -27,5 +27,5 @@
 // }
 // console.log(cube(4));
 
-const cube=x =>x*x*x;
+const cube=x =>x*x*x; 
 console.log(cube(4));
