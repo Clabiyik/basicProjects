@@ -1,2 +1,3 @@
-# basicProject
-I use this folder to learn things
+# Basit Projects
+I use this folder to learn things.
+
