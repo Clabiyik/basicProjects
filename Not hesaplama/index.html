@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="img_container">
+        <!-- top level image container START-->
+        <div class="main-img">
+            <h1>Öğrenci Ekle</h1>
+            <input type="text" placeholder="Ad" class="center" id="inputfield">
+            
+            <input type="text" placeholder="Soyad" class="center" id="inputfield2">
+            
+            <input type="text" placeholder="Sınıf" class="center" id="inputfield3" >
+            
+            <input type="text" placeholder="Puan" class="center" id="inputfield4">
+            <br>
+            <div class="button-container-div" id="save">
+                <button onclick="save()"> KAYDET</button>
+            </div>
+          <!--Main image -->
+          <div class="overlay">
+            <!--overlay div -->
+          </div>
+        </div>
+      
+      
+        <div class="stacked-div">
+          <!--stacked img container -->
+          <div class="top-img">
+            <h1>Sınıf Seç</h1>
+            <div class="button-container-div">
+                <button onclick="Class1()"> 1.SINIF</button>
+            </div>
+            <div class="button-container-div">
+                <button onclick="Class2()"> 2.SINIF</button>
+            </div>
+            <div class="button-container-div">
+                <button onclick="Class3()"> 3.SINIF</button>
+            </div>
+            <!--top image -->
+            <a href=""></a>
+            
+            <div class="overlay">
+             
+            </div>
+            <!--overlay -->
+          </div>
+          <div class="bottom-img">
+            <h1>Sınıf Listesi</h1>
+            <div class="to-dos" id="toDoContainer"></div>
+            <!--bottom image -->
+            <div class="overlay">
+              
+            </div>
+            <!--overlay -->
+          </div>
+        </div>
+        <script src="main.js"></script>
+    
+</body>
+</html>
