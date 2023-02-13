@@ -1,0 +1,20 @@
+[
+    {
+    "name":"Mustafa Murat Coşkun",
+    "department":"Bilişim",
+    "salary":3500
+
+    },
+    {
+    "name":"Oğuz Artıran",
+    "department":"Bilişim",
+    "salary":3600
+
+    },
+    {
+    "name":"Serhat Say",
+    "department":"Bilişim",
+    "salary":3700
+
+    }
+]
