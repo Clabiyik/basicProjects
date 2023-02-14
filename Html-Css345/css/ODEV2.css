@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    box-sizing: border-box;
+    width: 1500px;
+    height: 1500px;
+    border: solid 5px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 10px;
+}
+.button-center button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: orange;
+    width: 1000px;
+    border-radius: 40px;
+}
+.logo i img {
+    margin-top: 100px;
+    margin-left : 18%;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    display:inline
+  }
+  p{
+    margin-top: 100px;
+    text-align: center;
+  }
+  
