@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="/Vue instance/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <h1>{{sallama}}</h1>
+        <a v-bind:target="eduflow.target" v-bind:href="eduflow.url" v-bind:alt="eduflow.alt" v-bind:kablosuzkedi="owner" >{{eduflow.title}}</a>
+        <br>
+        <br>
+        <button v-on:click="changeTitle('Bu 1.buton')">Title değiştir</button>
+        <br>
+        <button v-on:click="changeTitle('Bu 2. buton')">Title değiştir</button>
+        <div @mousemove="updateCoords('mouseMooooove',$event)" class="box" @click="changeTitle">
+           
+
+        </div>
+        <span>{{coords.x}},{{coords.y}}</span>
+    </div>
+    <script src="/Vue instance/app.js"></script>
+</body>
+
+</html>
